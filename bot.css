@@ -1,0 +1,35 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-left: 0;
+            background-color: #f0f0f0;
+        }header {
+            background-color: #4a7bc9;
+            width: 100%;
+            padding: 16px;
+        }
+        h1 {
+            color: #f5f6f6;
+            text-align: center;
+            margin: 0;
+        }
+        .row{
+            width: 100%;
+            overflow: hidden;
+        }
+        .column {
+            float: left;
+            padding: 10px 2%;
+            height: 450px;
+        }
+        #right-column {width: 21%;}
+        #middle-column {width: 46%;}
+        #left-column {width: 21%;}
+        footer {
+            background-color: #ddd;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
